@@ -1,0 +1,7 @@
+configuration:
+  projectName: SpringBoot
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
