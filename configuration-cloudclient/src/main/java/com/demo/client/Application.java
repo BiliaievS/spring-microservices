@@ -25,13 +25,12 @@ public class Application {
 
 @RestController
 @RefreshScope
-
 class ProjectNameRestController {
 
     @Value("${configuration.projectName}")
     private String projectName;
 
-    @RequestMapping("/project name")
+    @RequestMapping("/project-name")
     String projectName() {
         return projectName;
     }
