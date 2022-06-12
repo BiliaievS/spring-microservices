@@ -1,5 +1,6 @@
 server:
-  port: { $PORT:8761 }
+  port: 8761
+#  port: { $PORT:8761 }
 
 eureka:
   client:
@@ -7,3 +8,8 @@ eureka:
     register-with-eureka: false
   server:
     wait-time-in-ms-when-sync-empty: 0
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

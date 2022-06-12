@@ -28,6 +28,7 @@
         <module>operations-logging</module>
         <module>operations-actuator</module>
         <module>eureka-service</module>
+        <module>eureka-client</module>
     </modules>
 
     <properties>
@@ -76,6 +77,12 @@
                 <groupId>org.jolokia</groupId>
                 <artifactId>jolokia-core</artifactId>
                 <version>1.7.1</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>14.0.1</version>
+                <type>bundle</type>
             </dependency>
         </dependencies>
     </dependencyManagement>
