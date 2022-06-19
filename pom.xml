@@ -29,6 +29,7 @@
         <module>operations-actuator</module>
         <module>eureka-service</module>
         <module>eureka-client</module>
+        <module>security-basic</module>
     </modules>
 
     <properties>
